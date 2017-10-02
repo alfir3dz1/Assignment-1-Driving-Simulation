@@ -13,7 +13,7 @@ for i in range(10):
 #Answer
 for i in num:
     ans.append(mod(int(i)))
-#Distinct
+#Distinct Answer
 output = []
 for j in set(ans):
     output.append(j)

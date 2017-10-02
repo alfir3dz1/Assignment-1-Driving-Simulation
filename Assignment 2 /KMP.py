@@ -1,11 +1,11 @@
-# Capital Letters according to the names
+# Capital Letters according to the names given
 alphabet = ['A', 'E', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V']
 
 
 def capital():
-    for a in separate:
-        if a in alphabet:
-            print(a, end="")
+    for i in separate:
+        if i in alphabet:
+            print(i, end="")
     return
 
 #Input according to the requirement
@@ -13,5 +13,5 @@ while True:
     endnames = input("\n End names: ")
     last_names = endnames.title()
     separate = list(last_names)
-    print("Output: ", end="")
+    print(end="")
     capital()
